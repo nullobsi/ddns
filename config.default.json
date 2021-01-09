@@ -1,5 +1,14 @@
 {
     "ipModule": "ipify",
     "use6": true,
-    "use4": true
+    "use4": true,
+    "dnsModule": "cloudflare",
+
+    "ipConfig": {},
+    "dnsConfig": {
+        "zone": "example.com",
+        "email": "example@example.com",
+        "token": "AaBbCcDd1234567890"
+    },
+    "domains": ["example.com"]
 }

@@ -121,8 +121,9 @@ async function createDnsRecord(opts: CloudflareOpts, zoneId: string, conf: {
 
 function getHeaders(opts: CloudflareOpts) {
     return {
-        "X-Auth-Email": opts.email,
-        "X-Auth-Key": opts.token,
+        /*"X-Auth-Email": opts.email,
+        "X-Auth-Key": opts.token,*/
+        "Authorization": "Bearer " + opts.token,
         "Content-Type": "application/json",
     }
 }
