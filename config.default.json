@@ -7,7 +7,6 @@
     "ipConfig": {},
     "dnsConfig": {
         "zone": "example.com",
-        "email": "example@example.com",
         "token": "AaBbCcDd1234567890"
     },
     "domains": ["example.com"]

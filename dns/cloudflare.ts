@@ -2,7 +2,6 @@ import {DNSSetter} from "../types/DNSSetter.ts";
 
 interface CloudflareOpts {
     zone: string,
-    email: string,
     token: string,
 }
 
